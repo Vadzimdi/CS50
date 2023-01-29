@@ -4,6 +4,8 @@ h1 {
 }
 div {
     background-color: rosybrown;
-    width: 100px;
-    height: 40px;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin: 50px;
 }
