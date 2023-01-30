@@ -2,12 +2,22 @@
 <html lang="en">
     <head>
         <title>Lists</title>
+        <style>
+            ul > ul > li {
+                color: blue;
+
+            }
+        </style>
     </head>
     <body>
         An unordered list:
         <ul>
             <li>First item</li>
             <li>Second item</li>
+            <ul>
+                <li>Unordered one</li>
+                <li>Unordered two</li>
+            </ul>
             <li>Third item</li>
         </ul>
         An ordered list:
