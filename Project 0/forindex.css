@@ -4,3 +4,12 @@ body {
 .nav-link {
     color: white;
 }
+.text-center {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    margin: -50px 0 0 -50px;
+
+}
