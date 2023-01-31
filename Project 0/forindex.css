@@ -1,15 +1,18 @@
 body {
     background-color: rgb(32, 33, 36);
+
 }
-.nav-link {
-    color: white;
+.search {  
+    text-align: center;
+    margin-top: 300px;  
 }
-.text-center {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 43%;
-    left: 45%;
-    margin: -50px 0 0 -50px;
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto; 
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    text-align: center;
+    margin-top: 300px;
 
 }
