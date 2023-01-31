@@ -1,18 +1,28 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
     background-color: rgb(32, 33, 36);
+}
+a {
+    color: white;
+    margin: 15px;
+    line-height: 24px;
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration:underline;
 }
-.search {  
-    text-align: center;
-    margin-top: 300px;  
+.nav {
+    text-align: right;
+    margin-top: 30px;
 }
+
 .logo {
-    max-height: 100%;
-    max-width: 100%;
-    width: auto; 
-    height: 92px;
-    aspect-ratio: auto 272 / 92;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 85px;
+}
+img {
+    height: 107px;
 
 }
